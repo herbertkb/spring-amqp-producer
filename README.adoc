@@ -1,0 +1,19 @@
+= Spring Boot Camel PAHO MQTT5 Producer
+
+. Build the project
++
+....
+ mvn clean package
+....
+
+. Start the fat jar
++
+....
+ mvn spring-boot:run
+....
+
+- To run with a unique client ID
++
+....
+CLIENT_ID=producer_01 mvn spring-boot:run
+....
