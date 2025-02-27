@@ -1,4 +1,4 @@
-= Spring Boot Camel PAHO MQTT5 Producer
+= Spring Boot Camel AMQP Producer
 
 . Build the project
 +
@@ -16,4 +16,10 @@
 +
 ....
 CLIENT_ID=producer_01 mvn spring-boot:run
+....
+
+- To change the destination address
++
+....
+DESTINATION=queue:someQ mvn spring-boot:run
 ....
